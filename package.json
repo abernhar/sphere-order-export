@@ -1,0 +1,75 @@
+{
+  "name": "sphere-order-export",
+  "description": "Quick and easy way to export your orders from SPHERE.IO into files.",
+  "version": "0.17.6",
+  "homepage": "https://github.com/sphereio/sphere-order-export",
+  "keywords": [
+    "sphere",
+    "api",
+    "order",
+    "export",
+    "xml"
+  ],
+  "author": {
+    "name": "Hajo Eichler",
+    "email": "hajo.eichler@commercetools.de"
+  },
+  "contributors": [
+    {
+      "name": "Nicola Molinari",
+      "email": "nicola.molinari@commercetools.de"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sphereio/sphere-order-export.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sphereio/sphere-order-export/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sphereio/sphere-order-export/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bin": {
+    "order-export": "bin/order-export"
+  },
+  "main": "elasticio.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt coverage"
+  },
+  "dependencies": {
+    "csv": "0.3.7",
+    "optimist": "0.6.1",
+    "q": "1.0.0",
+    "q-io": "1.11.0",
+    "safe-access": "0.1.0",
+    "sphere-node-client": "0.7.3",
+    "sphere-node-utils": "0.4.11",
+    "tmp": "0.0.23",
+    "underscore": "1.6.0",
+    "xmlbuilder": "2.2.1"
+  },
+  "devDependencies": {
+    "coveralls": "2.10.0",
+    "elasticio-cli": "~0.0.3",
+    "grunt": "0.4.4",
+    "grunt-bump": "0.0.13",
+    "grunt-cli": "0.1.13",
+    "grunt-coffeelint": "0.0.8",
+    "grunt-contrib-clean": "0.5.0",
+    "grunt-contrib-coffee": "0.10.1",
+    "grunt-contrib-concat": "0.4.0",
+    "grunt-contrib-watch": "0.6.1",
+    "grunt-shell": "0.6.4",
+    "istanbul": "0.2.7",
+    "jasmine-node": "1.13.0",
+    "sphere-coffeelint": "git://github.com/sphereio/sphere-coffeelint.git#master",
+    "xml2js": "0.4.2"
+  }
+}
