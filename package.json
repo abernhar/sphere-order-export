@@ -1,0 +1,78 @@
+{
+  "name": "sphere-order-export",
+  "description": "Quick and easy way to export your orders from SPHERE.IO into files, with SFTP support!",
+  "version": "0.18.0",
+  "homepage": "https://github.com/sphereio/sphere-order-export",
+  "private": false,
+  "keywords": [
+    "sphere",
+    "sphereio",
+    "api",
+    "order",
+    "export",
+    "xml",
+    "csv"
+  ],
+  "author": {
+    "name": "Hajo Eichler",
+    "email": "hajo.eichler@commercetools.de"
+  },
+  "maintainers": [
+    {
+      "name": "Nicola Molinari",
+      "email": "nicola.molinari@commercetools.de"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sphereio/sphere-order-export.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sphereio/sphere-order-export/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sphereio/sphere-order-export/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bin": {
+    "order-export": "bin/order-export"
+  },
+  "main": "lib/run",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt coverage"
+  },
+  "dependencies": {
+    "bluebird": "2.3.x",
+    "csv": "0.3.7",
+    "optimist": "0.6.1",
+    "safe-access": "0.1.0",
+    "sphere-node-sdk": "1.0.0-rc1",
+    "sphere-node-utils": "0.5.2",
+    "tmp": "0.0.23",
+    "underscore": "1.7.0",
+    "underscore-mixins": "*",
+    "xmlbuilder": "2.2.1"
+  },
+  "devDependencies": {
+    "coveralls": "2.10.0",
+    "elasticio-cli": "~0.0.3",
+    "grunt": "0.4.4",
+    "grunt-bump": "0.0.13",
+    "grunt-cli": "0.1.13",
+    "grunt-coffeelint": "0.0.8",
+    "grunt-contrib-clean": "0.5.0",
+    "grunt-contrib-coffee": "0.10.1",
+    "grunt-contrib-concat": "0.4.0",
+    "grunt-contrib-watch": "0.6.1",
+    "grunt-shell": "0.6.4",
+    "istanbul": "0.2.7",
+    "jasmine-node": "1.13.0",
+    "sphere-coffeelint": "git://github.com/sphereio/sphere-coffeelint.git#master",
+    "xml2js": "0.4.2"
+  }
+}
